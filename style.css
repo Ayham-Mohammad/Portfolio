@@ -724,7 +724,7 @@ section {
   }
 
   .navbar nav {
-    margin-left: -15px;
+    margin-left: -30px;
   }
 
   .navbar nav ul {
@@ -770,18 +770,18 @@ section {
   }
 
   .project-card h2 {
-    font-size: 15px;
+    font-size: 20px;
     margin-bottom: 5px;
   }
 
   .project-card p {
-    font-size: 9px;
+    font-size: 10px;
     margin-bottom: 10px;
-    text-align: left;
+    text-align: center;
   }
 
   .view-project-button {
-    padding: 10px 10px;
+    padding:15px;
     font-size: 10px;
     display: inline;
     text-align: center;
