@@ -785,3 +785,53 @@ section {
         display: inline-block;
     }
 }
+/* ===== MOBILE FIXES ONLY (<768px) ===== */
+@media (max-width: 768px) {
+
+    /* ===== Navbar ===== */
+    .navbar nav ul li a {
+        font-size: 5px;  /* very small font for mobile */
+    }
+
+    /* ===== Project Cards ===== */
+    .project-card {
+        flex-direction: column;  /* stack image + info */
+        text-align: center;      /* center text */
+        margin-bottom: 20px;
+        max-width: 90%;          /* shrink card width for mobile */
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .project-card img {
+        width: 100%;             /* shrink image to card width */
+        height: auto;
+        object-fit: cover;
+        margin-bottom: 10px;
+    }
+
+    .project-card .project-info {
+        width: 100%;
+        padding: 10px;           /* reduce padding */
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;     /* center text and button */
+    }
+
+    .project-card h2 {
+        font-size: 18px;         /* smaller heading */
+        margin-bottom: 5px;
+    }
+
+    .project-card p {
+        font-size: 12px;         /* smaller brief */
+        margin-bottom: 10px;
+        text-align: center;
+    }
+
+    .view-project-button {
+        padding: 10px 15px;      /* smaller button */
+        font-size: 12px;
+    }
+}
